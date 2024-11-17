@@ -22,7 +22,7 @@ default-features = false
 features = ["client", "gateway", "rustls_backend", "model", "voice", "cache"]
 
 [workspace.dependencies.songbird]
-version = "0.4.1"
+version = "0.4.4"
 features = ["builtin-queue"]
 
 [workspace.dependencies.tokio]
